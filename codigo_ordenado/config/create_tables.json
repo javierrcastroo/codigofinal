@@ -1,0 +1,12 @@
+{
+  "db_name": "sandbox_db",
+
+  "preprocessed_hive_root": "/apps/hive/sandbox_db/data_111",
+  "preprocessed_impala_root": "/apps/impala/sandbox_db/data_111",
+
+  "forst2hf_hive_root": "/apps/hive/sandbox_db/data/parquet/compacted_yyyy_mm_pn_op_64mb_hive_typed",
+  "forst2hf_impala_root": "/apps/impala/sandbox_db/data/parquet_forst/compacted_yyyy_mm_pn_op_64mb_impala_typed",
+
+  "forst2hf_hive_table": "forst2hf_yyyy_mm_pn_op_64mb_hive_typed",
+  "forst2hf_impala_table": "forst2hf_yyyy_mm_pn_op_64mb_impala_typed"
+}

@@ -1,0 +1,26 @@
+{
+  "db_name": "sandbox_db",
+  "iterations": 5,
+  "exec_modes": ["per_query", "per_iteration"],
+  "engines": ["hive", "impala"],
+  "tables": {
+    "hive": [
+      "auto_yyyy_mm_pn_op_sintetico_interno"
+    ],
+    "impala": [
+      "auto_yyyy_mm_pn_op_sintetico_interno"
+    ]
+  },
+  "queries": [
+    "Q1_all",
+    "Q2_all_add",
+    "Q2_all_add_rand",
+    "Q3_all_sub"
+  ],
+  
+  "outputs": {
+    "local_dir": "/tmp",
+    "hdfs_dir": "/apps/hive/sandbox_db/benchmarks/forst2_prueba",
+    "csv_name": "benchmark_forst2_auto_interno.csv"
+  }
+}

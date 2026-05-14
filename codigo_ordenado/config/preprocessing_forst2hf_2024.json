@@ -1,0 +1,9 @@
+{
+  "src_dir": "/apps/optimization_bigdata_tech/raw/forst2hf/2024",
+  
+  "dst_dir": "/apps/impala/sandbox_db/data_auto/parquet_with_snappy_111_spark",
+  
+  "tmp_dir": "/apps/optimization_bigdata_tech/parquet_with_snappy_111/_tmp_preprocessing",
+  
+  "start_idx": 56907
+}

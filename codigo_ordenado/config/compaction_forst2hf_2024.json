@@ -1,0 +1,23 @@
+{
+  "src_dir": "/apps/optimization_bigdata_tech/parquet_with_snappy_111",
+  
+  "hive_out_root": "/apps/hive/sandbox_db/data_111",
+  "impala_out_root": "/apps/impala/sandbox_db/data_111",
+  
+  "start_year": 2023,
+  "start_month": 3,
+  
+  "jobs": [
+    
+    { "partitioning": "YYYY_MM_PN_OP", "block_mb": 64  },
+    { "partitioning": "YYYY_MM_PN", "block_mb": 64  },
+    { "partitioning": "YYYY_MM", "block_mb": 64  },
+    
+    { "partitioning": "YYYY_MM_PN", "block_mb": 128  },
+    { "partitioning": "YYYY_MM", "block_mb": 128  },
+    
+    { "partitioning": "YYYY_MM_PN", "block_mb": 256  },
+    { "partitioning": "YYYY_MM", "block_mb": 256  }
+
+  ]
+}
