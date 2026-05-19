@@ -1,3 +1,9 @@
+"""End-to-end orchestration pipeline for Impala table lifecycle operations.
+
+This module coordinates preparation, loading, and execution order across related
+Impala scripts to provide repeatable enterprise batch processing.
+"""
+
 from __future__ import annotations
 
 import random

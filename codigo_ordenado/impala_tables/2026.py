@@ -1,3 +1,9 @@
+"""Year-specific Impala loading workflow for 2026 partition scenarios.
+
+The script encapsulates targeted logic for year-partitioned synthetic tables that
+feed enterprise capacity and performance simulations.
+"""
+
 from __future__ import annotations
 
 from codigo_ordenado.utils.connection_to_db import impala_on, impala_off

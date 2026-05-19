@@ -1,3 +1,9 @@
+"""Partition compaction and optimization driver for large analytical tables.
+
+It coordinates partition-level maintenance tasks to improve read performance and
+storage efficiency after preprocessing and incremental table population.
+"""
+
 from __future__ import annotations
 
 import argparse

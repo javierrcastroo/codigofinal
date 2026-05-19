@@ -1,3 +1,9 @@
+"""Impala benchmark query definitions and execution helpers for FORST2 data.
+
+It contains SQL statements and timing utilities used by benchmark runners to measure
+query latency and compare table design alternatives.
+"""
+
 from __future__ import annotations
 
 from time import perf_counter

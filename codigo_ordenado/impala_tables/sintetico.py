@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""Synthetic dataset constructor for Impala table performance scenarios.
+
+It creates artificial but realistic records used to stress-test DDL/DML flows and
+complement benchmark query modules.
+"""
+
 
 from __future__ import annotations
 

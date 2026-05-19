@@ -1,3 +1,9 @@
+"""Focused benchmark scenario F1 for representative analytical query patterns.
+
+The module encapsulates one workload family so results can be compared independently
+within the broader benchmark orchestrator and reporting process.
+"""
+
 from __future__ import annotations
 
 from time import perf_counter

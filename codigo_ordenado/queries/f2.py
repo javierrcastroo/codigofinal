@@ -1,3 +1,9 @@
+"""Focused benchmark scenario F2 targeting complementary query behavior.
+
+This script executes a second workload profile and contributes timing outputs used
+by run-level benchmark aggregation and decision-making.
+"""
+
 from __future__ import annotations
 
 from time import perf_counter

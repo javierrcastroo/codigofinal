@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""Post-processing pipeline for synthetic Impala data assets.
+
+After synthetic generation, this script applies final transformations and load
+steps so benchmark suites can run on a consistent target structure.
+"""
+
 
 from __future__ import annotations
 

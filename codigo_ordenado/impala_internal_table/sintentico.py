@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""Synthetic-data generator for internal Impala table experimentation.
+
+The script produces controlled synthetic records that help validate schema behavior
+and benchmark strategies used by other internal-table workflows.
+"""
+
 
 from __future__ import annotations
 

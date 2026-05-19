@@ -1,3 +1,9 @@
+"""Spark preparation stage for Impala-oriented table publication.
+
+It transforms source fields into analytics-ready columns and emits datasets that
+pipeline and post-processing modules load into Impala-managed structures.
+"""
+
 from __future__ import annotations
 
 import argparse

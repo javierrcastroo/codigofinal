@@ -1,3 +1,9 @@
+"""Preprocessing orchestration for preparing raw FORST2-style datasets.
+
+This script reads configuration, normalizes partition-related fields, and writes
+curated outputs that are later consumed by table-creation and benchmark modules.
+"""
+
 from __future__ import annotations
 
 import argparse
