@@ -1,3 +1,9 @@
+"""Benchmark orchestrator that executes configured FORST2 query suites.
+
+It reads runtime configuration, dispatches Hive/Impala query modules, and persists
+performance outcomes for enterprise reporting and tuning cycles.
+"""
+
 from __future__ import annotations
 
 import json

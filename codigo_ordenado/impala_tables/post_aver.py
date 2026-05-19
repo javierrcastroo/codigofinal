@@ -1,3 +1,9 @@
+"""Post-load enrichment and validation for aggregated Impala tables.
+
+This module runs after aggregation table creation to apply updates, checks, and
+additional inserts required by downstream benchmark consumers.
+"""
+
 from __future__ import annotations
 
 from datetime import datetime

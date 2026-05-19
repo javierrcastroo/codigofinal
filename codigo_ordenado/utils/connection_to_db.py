@@ -1,3 +1,9 @@
+"""Enterprise database connectivity helpers for Spark, Hive, and Impala workloads.
+
+This module centralizes session and cursor creation so data pipelines, table builders,
+and benchmark scripts can share the same connection lifecycle and credentials logic.
+"""
+
 from pyspark.sql import SparkSession
 import secrets
 import random

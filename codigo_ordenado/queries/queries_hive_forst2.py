@@ -1,3 +1,9 @@
+"""Hive benchmark query catalog mirroring Impala analytical workloads.
+
+This module enables engine-to-engine comparisons by executing equivalent business
+queries against Hive-backed tables and collecting runtime metrics.
+"""
+
 from __future__ import annotations
 
 from time import perf_counter

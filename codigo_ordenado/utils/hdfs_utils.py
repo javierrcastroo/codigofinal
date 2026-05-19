@@ -1,3 +1,9 @@
+"""HDFS command wrappers for filesystem housekeeping in data workflows.
+
+These helpers are consumed by Impala table scripts to safely delete or reset storage
+paths before recreating managed or external datasets.
+"""
+
 from __future__ import annotations
 
 import subprocess

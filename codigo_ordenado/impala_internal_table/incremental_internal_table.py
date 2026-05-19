@@ -1,3 +1,9 @@
+"""Incremental loader for Impala internal tables by execution period.
+
+This module appends new partitions or periods to previously created internal tables,
+allowing recurring batch ingestion without full table rebuilds.
+"""
+
 from __future__ import annotations
 
 from datetime import datetime

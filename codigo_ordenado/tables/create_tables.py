@@ -1,3 +1,9 @@
+"""Declarative table provisioning for Hive/Impala analytical environments.
+
+The module consumes JSON specifications and creates database objects required by
+preprocessing outputs, synthetic generators, and query benchmarking scripts.
+"""
+
 from __future__ import annotations
 
 import argparse

@@ -1,3 +1,9 @@
+"""Validation and sandbox test operations for Impala table management.
+
+It contains controlled test routines used to verify table DDL/DML behavior and HDFS
+integration before promoting workflow changes to broader runs.
+"""
+
 from __future__ import annotations
 
 from codigo_ordenado.utils.connection_to_db import impala_on, impala_off

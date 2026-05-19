@@ -1,3 +1,9 @@
+"""Average/aggregation-focused table build script for Impala datasets.
+
+It defines table creation and loading steps for aggregated views consumed by
+post-processing and validation scripts in the Impala workflow.
+"""
+
 from __future__ import annotations
 
 from codigo_ordenado.utils.connection_to_db import impala_on, impala_off

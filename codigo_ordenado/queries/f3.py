@@ -1,3 +1,9 @@
+"""Focused benchmark scenario F3 with configurable execution parameters.
+
+It provides an additional workload stream whose results are integrated with F1/F2 to
+build a multi-angle performance baseline for enterprise environments.
+"""
+
 from __future__ import annotations
 
 import json

@@ -1,3 +1,9 @@
+"""Baseline internal-table build routine for Impala-managed datasets.
+
+It creates and populates internal tables that downstream incremental loaders and
+benchmark query suites depend on for stable performance testing.
+"""
+
 from __future__ import annotations
 
 from codigo_ordenado.utils.connection_to_db import impala_on, impala_off
